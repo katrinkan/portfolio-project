@@ -36,6 +36,7 @@ footer {
   text-align: center;
   padding: 30px 20px;
 }
+
 .btn-branding {
   background-color: #ff5141;
   color: var(--background-color);
@@ -87,7 +88,6 @@ footer {
   p {
     font-size: 16px;
   }
-
   .logo {
     width: 300px;
   }
@@ -107,5 +107,16 @@ footer {
   .build-together {
     margin: 0 auto;
     padding-bottom: 40px;
+  }
+  .heading-about {
+    margin-bottom: 50px;
+  }
+  .img-about {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .paragraph-about {
+    margin-top: 50px;
   }
 }
