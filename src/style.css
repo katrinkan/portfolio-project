@@ -75,7 +75,7 @@ footer {
   font-size: 16px;
   max-width: 350px;
 }
-.fab {
+.icon {
   font-size: 38px;
   color: var(--heading-color);
   padding: 20px;
@@ -83,6 +83,14 @@ footer {
 }
 .page-content {
   background-color: var(--background-color);
+}
+.email-link {
+  text-decoration: none;
+  color: var(--heading-color);
+  font-size: 24px;
+}
+.email-link:hover {
+  color: var(--heading-color);
 }
 .code-link {
   font-size: 16px;
