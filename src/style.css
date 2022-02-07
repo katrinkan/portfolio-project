@@ -62,8 +62,18 @@ footer {
   color: var(--secondary-color);
   background: #ff5141;
 }
-.project-description {
+.description {
   padding: 30px 60px 0;
+}
+.project-img {
+  border-radius: 4px;
+}
+.project-description h3 {
+  font-size: 24px;
+}
+.project-description p {
+  font-size: 16px;
+  max-width: 350px;
 }
 .fab {
   font-size: 38px;
