@@ -53,7 +53,7 @@ nav li a {
 nav li a:hover,
 nav li.active a {
   color: var(--heading-color);
-  font-weight: 800;
+  font-family: var(--heading-font-family);
 }
 
 nav img {
