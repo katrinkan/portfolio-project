@@ -111,7 +111,7 @@ footer {
   .heading-about {
     margin-bottom: 50px;
   }
-  .img-about {
+  .img-responsive {
     width: 300px;
     display: block;
     margin: 0 auto;
