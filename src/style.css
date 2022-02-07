@@ -166,8 +166,12 @@ nav img {
   .paragraph-about {
     margin-top: 50px;
   }
+  nav ul {
+    margin: 0 auto;
+    padding-left: 0;
+  }
   nav li {
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 16px;
   }
   .description {
