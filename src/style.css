@@ -129,7 +129,7 @@ nav img {
   color: var(--heading-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 912px) {
   h2 {
     font-size: 36px;
   }
@@ -141,6 +141,10 @@ nav img {
   }
   .project-description {
     padding: 0;
+  }
+  .project-description p {
+    margin: 0 auto;
+    padding-bottom: 20px;
   }
   .hero {
     padding: 60px 0;
