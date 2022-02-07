@@ -31,6 +31,34 @@ p {
 footer {
   padding: 30px 20px;
 }
+nav {
+  padding: 0 30px;
+}
+nav ul {
+  margin: 0;
+  padding-top: 20px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  font-size: 24px;
+  line-height: 42px;
+  margin-left: 30px;
+}
+nav li a {
+  text-decoration: none;
+  color: var(--heading-color);
+  transition: all 150ms ease-in-out;
+}
+nav li a:hover,
+nav li.active a {
+  color: var(--heading-color);
+  font-weight: 800;
+}
+
+nav img {
+  max-width: 80px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -44,6 +72,7 @@ footer {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
 }
 .btn-branding:hover {
   background: var(--background-color);
@@ -57,6 +86,7 @@ footer {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
 }
 .btn-branding-outline:hover {
   color: var(--secondary-color);
@@ -136,5 +166,9 @@ footer {
   }
   .paragraph-about {
     margin-top: 50px;
+  }
+  nav li {
+    margin-left: 10px;
+    font-size: 16px;
   }
 }
