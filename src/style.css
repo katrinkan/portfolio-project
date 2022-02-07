@@ -141,7 +141,6 @@ nav img {
   }
   .project-description {
     padding: 0;
-    text-align: center;
   }
   .hero {
     padding: 60px 0;
@@ -170,5 +169,8 @@ nav img {
   nav li {
     margin-left: 10px;
     font-size: 16px;
+  }
+  .description {
+    text-align: center;
   }
 }
